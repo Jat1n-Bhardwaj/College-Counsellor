@@ -1,7 +1,7 @@
 import streamlit as st
 import sqlite3
 from streamlit_option_menu import option_menu
-st.image("C://Users//USER//Downloads//cc.png")
+st.image("img/cc.png")
 def connect_db():
     conn=sqlite3.connect("collegecounsellor.db")
     return conn
