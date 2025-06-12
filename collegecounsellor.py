@@ -19,7 +19,7 @@ def create_profile(data):
         conn.commit()
         conn.close()
         return 1
-    except slite3.IntegrityError:
+    except sqlite3.IntegrityError:
         st.error("User already Registered")
         conn.close()
 def college():
